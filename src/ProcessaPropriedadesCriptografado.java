@@ -6,7 +6,7 @@ public class ProcessaPropriedadesCriptografado {
 		return processaCriptografado(conteudo.getBytes());
 	}
 	private String geraConteudoPropriedades(Map<String, Object> propriedades) {
-		//gera properties
+		
 		StringBuilder propFileBuilder = new StringBuilder();
 		for (String prop : propriedades.keySet()) {
 			propFileBuilder.append(prop+"="+propriedades.get(prop)+"\n");
