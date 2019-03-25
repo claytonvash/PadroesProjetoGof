@@ -6,8 +6,8 @@ public class Principal {
 
 	public static void main(String[] args)throws IOException {
 		Map<String, Object> mapa = new HashMap<>();
-		mapa.put("nome", "Carlos");
-		mapa.put("idade",32);
+		mapa.put("nome", "Clayton");
+		mapa.put("idade",38);
 
 		GeradorArquivo gerador = new GeradorArquivo();
 		gerador.gerarArquivo("c:\\Gerador\\Cripto.text", mapa, "PROPRIEDADE_CRIPTOGRAFADO");
